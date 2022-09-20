@@ -1,0 +1,109 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+#mainpanel {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-top: 5%;
+    padding: 5%;
+}
+#bottompanel {
+    border-radius: 8px;
+    background-color: #212529;
+    width: 90%;
+    height: 100%;
+    position: relative;
+    box-shadow: 5px 5px 5px 5px  rgb(72, 45, 101);
+    margin-top: 5%;
+  }
+  #toppanel {
+    border-radius: 8px;
+    background-color: #212529;
+    width: 60%;
+    height: 60%;
+    position: relative;
+    box-shadow: 5px 5px 5px 5px  rgb(72, 45, 101);
+    margin-top: 5%;
+
+  }
+
+  .t1{
+    font-family: "Quicksand", sans-serif;
+    font-size: 50pt;
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+  }
+
+  h1{
+    font-family: "Quicksand", sans-serif;
+    font-size: 20pt;
+    text-align: left;
+    color: white;
+    margin-top: 0px;
+  }
+
+  .t2{
+    font-family: "Quicksand", sans-serif;
+    font-size: 30pt;
+    color: whitesmoke;
+    margin-top: 0px;
+  }
+
+  .center {
+    margin: auto;
+  }
+  
+
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #6a11cb;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgb(193, 154, 234), rgb(97, 65, 132));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgb(193, 154, 234), rgb(97, 65, 132))
+    }
+
+.btn2{
+    background-color: rgb(97, 65, 132);
+    border: none;
+}
+
+.card2{
+    background-color: rgb(176, 147, 207);
+}
+
+.bgArt{
+    border-radius: 8px;
+    background-color: #212529;
+    width: 90%;
+    height: 100%;
+    position: relative;
+    box-shadow: 5px 5px 5px 5px  rgb(72, 45, 101);
+    margin-top: 5%;
+}
+
+.divTitle {
+    border-radius: 8px;
+    background-color: #212529;
+    width: 40%;
+    height: 20%;
+    position: relative;
+    box-shadow: 5px 5px 5px 5px  rgb(72, 45, 101);
+    margin-top: 0%;
+
+  }
+  
+  .divContainer {
+    border-radius: 8px;
+    background-color: whitesmoke;
+    width: 80%;
+    height: 20%;
+    position: relative;
+    box-shadow: 5px 5px 5px 5px  rgb(72, 45, 101);
+    padding: 5%;
+
+  }
