@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap demo</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <link rel="stylesheet" href="file.css">
+      </head>
+
+    <body class="gradient-custom">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>        <div class="container text-center">
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Art Auction</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">MENU</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">🏠 Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="painting.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">🖼 Paintings</a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                      <li><a class="dropdown-item" href="concept.html">🌄 Concept</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="paint.html">🎨 Paint</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                          <li><a class="dropdown-item" href="iaGenerated.html">🖥 IA Generated</a></li>
+                    </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="artist.html">👨‍🎨 Artist</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="news.html">📄 News</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="getHelp.html">❔ Help</a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div id="mainpanel" class="gradient-custom">
+            <div class="card text-center">
+                <div class="card-header">
+                    <h3>More than an illustration</h3>
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active" id="art-tab" data-bs-toggle="tab" data-bs-target="#art-tab-pane" type="button" role="tab" aria-controls="art-tab-pane" aria-selected="true">Art Point</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="concept-tab" data-bs-toggle="tab" data-bs-target="#concept-tab-pane" type="button" role="tab" aria-controls="concept-tab-pane" aria-selected="false">Concept Art</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="paint-tab" data-bs-toggle="tab" data-bs-target="#paint-tab-pane" type="button" role="tab" aria-controls="paint-tab-pane" aria-selected="false">Paint</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="ia-tab" data-bs-toggle="tab" data-bs-target="#ia-tab-pane" type="button" role="tab" aria-controls="ia-tab-pane" aria-selected="false">IA</button>
+                        </li>
+                      </ul>
+                      <div class="tab-content" id="myTabContent" >
+                        <div class="tab-pane fade show active" id="art-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                            <div class="card-body" >
+                                <h5 class="card-title">As special as an illustration</h5>
+                                <p class="card-text">Art is special in many ways. For us this is a vital part of life, and this is how we live it...</p>
+                                <div class="d-flex position-relative" style="margin-top: 5%;" >
+                                    <img style="height:30%; width:30%;" src="https://cdn.culturagenial.com/es/imagenes/el-bosco-y-el-jardin-de-las-delicias-historia-y-analisis-og.jpg" class="flex-shrink-0 me-3" alt="...">
+                                    <div class="center" >
+                                      <h5 class="mt-0">Oscar Durán Gómez</h5>
+                                      <p>"Art is a way of expression that allows us to know the vision that the artist had, and the situation that the artist was living at that time."</p>
+                                      <p>Image: <a href="https://www.culturagenial.com/es/el-jardin-de-las-delicias-de-el-bosco/">"The Garden of Earthly Delights"</a> Artist:  El Bosco</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex position-relative">
+                                    <img style="height:30%; width:30%;" src="https://images.nightcafe.studio/jobs/7eEeQirUkQnQlL5K6cbb/7eEeQirUkQnQlL5K6cbb.jpg?tr=w-1080,c-at_max" class="flex-shrink-0 me-3" alt="...">
+                                    <div class="center">
+                                      <h5 class="mt-0">Ximena Muñoz Villaseñor</h5>
+                                      <p>"The eyes are the windows to your soul, but art is the beauty of it"</p>
+                                      <p>Image: <a href="https://images.nightcafe.studio/jobs/7eEeQirUkQnQlL5K6cbb/7eEeQirUkQnQlL5K6cbb.jpg?tr=w-1080,c-at_max">"Limitless"</a> Artist: Ximena Muñoz Villaseñor</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex position-relative">
+                                    <img style="height:30%; width:30%;"  src="https://7cc40caed0.clvaw-cdnwnd.com/c95af6144d810708f7246f44cb94c814/200000362-7bfc27bfc4/Captura%20de%20Pantalla%202021-11-08%20a%20la%28s%29%209.17.14.png?ph=7cc40caed0" class="flex-shrink-0 me-3" alt="Deep relaxation -by Ana Paula Alvarado Castro">
+                                    <div class="center">
+                                        <p></p>
+                                        <h5 class="mt-0">Natalia Orozco Alvarado</h5>
+                                        <p>"Art more than an illustration... is the portal that allows us to feel the intangible things of life."</p>
+                                        <p>Image: <a href="https://www.arteanapaulaalvarado.com.mx/algunos-oleos/">"Deep relaxation"</a> Artist: Ana Paula Alvarado Castro</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="concept-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                            <div class="card-body">
+                                <h5 class="card-title">An image that becomes a perception</h5>
+                                <p class="card-text">Concept Art fulfills the function of expressing more thoroughly what is going to be experienced within a certain scene. In other words, it is the preparation of the environment and the details that enrich the sentiment of the viewer.
+                                    Small details generate big changes in how things are perceived.</p>
+                                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <img src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/hc_1440x810/public/media/image/2014/05/327638-primer-concept-art-halo-5-guardians.jpg?itok=mp1yfZQA" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="https://cdn.domestika.org/c_limit,dpr_auto,f_auto,q_auto,w_820/v1508404650/content-items/002/113/426/nacho-yague-acu-env-champselyseescorner-nachoyague-original.jpg?1508404650" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="https://i.pinimg.com/originals/6c/4a/4f/6c4a4f55e7f15582a4dbc81382cc873a.jpg" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="https://w0.peakpx.com/wallpaper/589/920/HD-wallpaper-anime-jujutsu-kaisen-boy-scenery-sukuna-jujutsu-kaisen.jpg" class="d-block w-100" alt="...">
+                                      </div>
+                                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                      </button>
+                                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                      </button>
+                                    </div>
+                                    <a href="concept.html" class="btn btn-primary">Go to Concept Art</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="paint-tab-pane" role="tabpanel" aria-labelledby="paint-tab" tabindex="0">
+                            <div class="card-body">
+                                <h5 class="card-title">Inside the deepest feeling</h5>
+                                <p class="card-text">A complete composition that focuses the viewer on a specific feeling. A painting usually has the capacity to be like a mirror for those who see it, since it connects the work with each person in a unique way.</p>
+                                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <img src="https://culturacolectiva-cultura-colectiva-prod.cdn.arcpublishing.com/resizer/h-Iqe6g5flKSzKptRAQLTqZCLpc=/1024x768/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/culturacolectiva/2RQLFDGDUFFRHGGCFIQEQLWGZM.jpg" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="https://content3.cdnprado.net/imagenes/Documentos/imgsem/df/df4d/df4d69a2-2c84-40c8-8c53-7b07e50979dc/4a386ea5-bd51-9d3e-b8b9-20c0c5523e3e.jpg" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfkxHAVgyH5dekEBp2TCy4EJlbmjCdFE5CDb-DSSKBvL1baTHVDr3ac0vScd251dS3chY&usqp=CAU" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="http://alternopolis.com/wp-content/uploads/2017/02/Reisha-Perlmutter-01.jpg" class="d-block w-100" alt="...">
+                                      </div>
+                                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                      </button>
+                                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                      </button>
+                                    </div>
+                                    <a href="paint.html" class="btn btn-primary">Go to Paints</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="ia-tab-pane" role="tabpanel" aria-labelledby="ia-tab" tabindex="0">
+                            <div class="card-body">
+                                <h5 class="card-title">Expand the limits</h5>
+                                <p class="card-text">The impressive collaboration between two worlds, human sensitivity and technology. An artificial intelligence is today capable of generating the images we imagine with the perfect formula to generate the right impact.</p>
+                                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <img src="https://gagadget.com/media/cache/77/d4/77d4780d740e2649ced07ae5416ef318.jpg" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="https://www.generacionuniversitaria.com.mx/wp-content/uploads/2022/06/Imagen_dest-1024x631.jpg" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="http://www.bbl.com.ar/imagenes/2022/04/suelto_1650883378_81.jpg" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480x272/public/media/image/2021/12/botto-inteligencia-artificial-artista-2549389.jpg?itok=dMn7sfyP" class="d-block w-100" alt="...">
+                                      </div>
+                                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                      </button>
+                                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                      </button>
+                                    </div>
+                                    <a href="iaGenerated.html" class="btn btn-primary">Go to IA Generated</a>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                
+            </div>
+        
+    </body>
+</html>
